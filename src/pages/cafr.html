@@ -1,0 +1,39 @@
+---
+layout: rsd
+cid: EML_ELO_20230503_4UMJ5Z
+subject: 
+preheaderText: 
+preheaderUrl: https://www.fishersci.com/us/en/scientific-products/applications/chromatography.html
+
+arrowSRC: /assets/img/linkArrow_blue.png
+---
+
+{{!-- Sample Content --}}
+
+{{#with lists-fr.hero}}
+  {{> content-hero-full}}
+{{/with}}
+
+{{> spacer size=10}}
+
+{{#each lists-fr.focus}}
+
+  {{> content-body-2col 
+    img-column = 5
+    img-direction = 'right'
+    btn-type = 'solid'
+    btn-color = '#005daa'
+    btn-width = 125
+    CTA="Save Now"
+    SRC = "/assets/img/focusImage.png"
+  }}
+
+{{/each}}
+
+{{> spacer size=10}}
+
+{{#with lists-fr.banner}}
+  {{> content-hero-full}}
+{{/with}}
+
+{{> spacer size=20}}

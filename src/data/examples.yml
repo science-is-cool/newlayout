@@ -1,0 +1,49 @@
+hero:
+  SRC: /assets/img/hero.png
+  ALT: 
+  URL: 
+
+banner:
+  SRC: /assets/img/banner.png
+  ALT: 
+  URL: 
+
+focus:
+  -
+    index: 1
+    SRC: /assets/img/focusImage.png
+    ALT: 
+    logoSRC: /assets/img/eyebrowLogo.png
+    logoALT: 
+    Head: Heading Goes Here
+    Body: Content goes here. This area is fully compliant with html symbols and tags. Such as <em>italics</em>, <strong>bold</strong> and break <br>tags!
+    URL: https://www.fishersci.com/us/en/home.html
+  -
+    index: 2
+    SRC: 
+    ALT: 
+    logoSRC: 
+    logoALT: 
+    Head: 
+    Body: 
+    URL: 
+
+bullet-content:
+  Head: Heading Area
+  Body: Insert Content Here
+
+  bullets: 
+    - bullet: Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+    - bullet: Dolore optio quasi libero doloremque quisquam? 
+    - bullet: Harum distinctio magnam doloremque ex cupiditate.
+    - bullet: Reprehenderit, est vel!
+
+  bullets2:
+    -
+      bullet: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi nesciunt eum rem dolorum esse eligendi reprehenderit soluta consectetur fugiat doloribus veniam laboriosam neque cum blanditiis optio molestias, reiciendis vel ipsa.
+    -
+      bullet: Dolore optio quasi libero reiciendis eligendi deserunt doloremque quisquam? Corrupti sapiente excepturi minus quos illo repudiandae enim dolorem! Et hic libero laboriosam magnam minima voluptas earum error aspernatur quisquam natus.
+    -
+      bullet: Harum distinctio magnam doloremque ex cupiditate, velit rerum accusantium non eius quod quam quasi eos dicta dolore, aperiam impedit molestiae nisi quos dolorem asperiores consequuntur tempore? Molestiae ipsam vitae vel.
+    -
+      bullet: Reprehenderit, est vel! Voluptatem unde inventore iste maxime natus soluta earum recusandae eaque, vel repellat eligendi deleniti quidem sed minima. Distinctio voluptatum quia tempore accusantium sunt quidem nam excepturi consectetur?

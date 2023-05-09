@@ -1,0 +1,81 @@
+---
+layout: rsd
+cid: CID_RSD
+subject: Insert Subject Line Here
+preheaderText: Insert Preheader Text Here
+preheaderUrl: https://www.fishersci.com/us/en/home.html
+
+arrowSRC: /assets/img/linkArrow_blue.png
+---
+
+{{!-- Sample Content --}}
+
+{{#with examples.hero}}
+  {{> content-hero-full}}
+{{/with}}
+
+{{> spacer size=10}}
+
+{{!-- How To Use Buttons --}}
+
+{{#with examples.bullet-content}}
+  {{> content-body-full_text
+    Head = 'Button Parameters:'
+    Body = '<strong>Button Colors</strong> can be set as "primary", "secondary", "safety" or any name/rgb/hex. For example: "red", "rgb(255,0,0)", or "#ff0000".<br><br><strong>Button Type</strong> can be set to "solid", "ghost" or "inline".'
+  }}
+{{/with}}
+
+{{> spacer size=10}}
+
+{{!-- How To Use Repeating Elements --}}
+
+{{#each examples.focus}}
+
+  {{!-- areas of interest can be defined universally here or individually in the associated .yml file --}}
+
+  {{> content-body-2col 
+    img-column = 6
+    img-direction = 'right'
+    btn-type = 'inline'
+    btn-color = 'primary'
+    btn-width = 125
+    btn-font_size = 16
+    CTA = "Save Now"
+    SRC = "/assets/img/focusImage.png"
+    Head = "Heading Goes Here"
+    Body = "Content goes here. This area is fully compliant with html symbols and tags. Such as <em>italics</em>, <strong>bold</strong> and break <br>tags!"
+    URL = "https://www.fishersci.com/us/en/scientific-products/special-offers-and-programs/promotions/2023/get-50-dollars-to-300-dollars-in-sure-start-vials-closures-with-purchase.html"
+  }}
+
+{{/each}}
+
+
+
+{{!-- How To Use Full Width Images/Banners --}}
+
+{{#with examples.banner}}
+  {{> content-body-full_image}}
+{{/with}}
+
+
+
+{{> spacer size=10}}
+
+
+
+{{!-- How To Use Body Elements & Bullets --}}
+
+{{#with examples.bullet-content}}
+  {{> content-body-full_text 
+    Head = 'How to use Bullets:'
+    Body = 'This is a sample area for showing off how bullets work in context. <br>Toggle <strong style="text-decoration:underline">bullet-line</strong> from <strong>"single"</strong> to <strong>"multi"</strong> for lists that use more than 1 line.'
+    bullet-line = 'single'
+    bullet-type = '&bull;'
+    bullet-vspace = 5
+    bullet-lspace = 3
+    bullet-rspace = 3
+  }}
+
+{{/with}}
+
+{{> spacer size=20}}

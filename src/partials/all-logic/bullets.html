@@ -1,0 +1,7 @@
+{{#ifequal bull-line 'single'}}
+    {{> bullet-single}}
+    <spacer size="{{bull-vspace}}"></spacer>
+{{else ifequal bull-line 'multi'}}
+    {{> bullet-multi}}
+    <spacer size="{{bull-vspace}}"></spacer>
+{{/ifequal}}

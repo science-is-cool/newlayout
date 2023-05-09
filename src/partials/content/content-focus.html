@@ -1,0 +1,26 @@
+<container class="content two-column no-pad">
+    <spacer size="22"></spacer>
+    <row>
+      <columns small="12" large="8">
+        <img src="{{Logo}}" alt="{{LogoALT}}">
+        <spacer size="18"></spacer>
+        <h2>{{{Heading}}}</h2>
+        <spacer size="11"></spacer>
+        <p>{{{Body}}}</p>
+        <spacer size="28"></spacer>
+        <div class="btn-group"><!--[if mso]>
+          <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{URL}}?cid={{cid}}" style="height:40px;v-text-anchor:middle;width:135px;" arcsize="10%" strokecolor="#005daa" fillcolor="#ffffff">
+            <w:anchorlock/>
+            <center style="color:#005daa;font-family:Helvetica Neue,Helvetica;font-size:14px;font-weight:bold;">Save Now</center>
+          </v:roundrect>
+        <![endif]--><a href="{{URL}}?cid={{@root.cid}}" style="background-color:#ffffff;border:1px solid #005daa;border-radius:4px;color:#005daa;display:inline-block;font-family:Helvetica Neue,Helvetica;font-size:14px;font-weight:bold;line-height:40px;text-align:center;text-decoration:none;width:115px;-webkit-text-size-adjust:none;mso-hide:all;">Save Now</a></div>
+      </columns>
+      <columns small="12" large="4">
+        <a href="{{URL}}?cid={{@root.cid}}">
+          <center>
+            <img src="{{SRC}}" alt="{{ALT}}">
+          </center>
+        </a>
+      </columns>
+    </row>
+  </container>

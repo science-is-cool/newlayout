@@ -1,0 +1,49 @@
+hero:
+  SRC: http://images.info.fishersci.com/EloquaImages/clients/ThermoFisherScientificCCG/%7Bb4c91a06-2315-438d-b6fc-704d6878ffd6%7D_hero230764.png
+  ALT: 
+  URL: https://www.fishersci.ca/ca/fr/applications/chromatography.html
+
+banner:
+  SRC: http://images.info.fishersci.com/EloquaImages/clients/ThermoFisherScientificCCG/%7B8411fcc0-66d8-45ef-a890-8f3b774cee2c%7D_banner230764.png
+  ALT: 
+  URL: https://www.fishersci.ca/ca/fr/industries/lab-safety.html
+
+focus:
+  -
+    index: 1
+    image: bottom
+    SRC: http://images.info.fishersci.com/EloquaImages/clients/ThermoFisherScientificCCG/%7B0474083c-f417-4d0a-843b-c5b3b39dad0c%7D_focus1230764.jpg
+    ALT: 
+    logoSRC: http://images.info.fishersci.com/EloquaImages/clients/ThermoFisherScientificCCG/%7B0cea7e2a-7756-4236-bd8b-f5c7d91b3a9f%7D_eyebrow1230764.png
+    logoALT: Logo Thermo Scientific
+    Head: 
+    Body: 
+    URL: https://www.fishersci.ca/ca/fr/special-offers-and-programs/promotions/2023/get-50-dollars-to-300-dollars-in-sure-start-vials-closures-with-purchase.html
+  -
+    index: 2
+    image: bottom
+    SRC: http://images.info.fishersci.com/EloquaImages/clients/ThermoFisherScientificCCG/%7B9cdffcaf-1fa2-4414-ad4e-b3f35f6e9bce%7D_focus2230764.jpg
+    ALT: 
+    logoSRC: http://images.info.fishersci.com/EloquaImages/clients/ThermoFisherScientificCCG/%7B03fa2ee2-c1d3-4077-920b-1d5ea4b72d37%7D_eyebrow2230764.png
+    logoALT: Logo BUCHI
+    Head: 
+    Body: 
+    URL: https://www.fishersci.ca/ca/fr/special-offers-and-programs/promotions/2023/get-a-chromatography-start-up-package-with-system-purchase.html
+  -
+    index: 3
+    SRC: http://images.info.fishersci.com/EloquaImages/clients/ThermoFisherScientificCCG/%7B7765fcd9-4861-4dcd-9492-7d516978218c%7D_focus3230764.jpg
+    ALT: 
+    logoSRC: http://images.info.fishersci.com/EloquaImages/clients/ThermoFisherScientificCCG/%7B1febb52a-f74a-40e5-a600-f91dbb7ffa46%7D_eyebrow3230764.png
+    logoALT: Logo MilliporeSigma
+    Head: 
+    Body: 
+    URL: https://www.fishersci.ca/ca/fr/special-offers-and-programs/promotions/2023/get-extra-plates-with-tlc-plates-purchase.html
+  -
+    index: 4
+    SRC: http://images.info.fishersci.com/EloquaImages/clients/ThermoFisherScientificCCG/%7Ba7b71cd3-4f0e-43d3-8342-43a8ced8a686%7D_focus4230764.jpg
+    ALT: 
+    logoSRC: http://images.info.fishersci.com/EloquaImages/clients/ThermoFisherScientificCCG/%7B2ab27145-4355-40b4-936d-e9e4d51948b8%7D_eyebrow4230764.png
+    logoALT: Logo Cytiva
+    Head: 
+    Body: 
+    URL: https://www.fishersci.ca/ca/fr/special-offers-and-programs/promotions/2023/get-a-cytiva-desalting-column-when-you-spend-500-dollars.html

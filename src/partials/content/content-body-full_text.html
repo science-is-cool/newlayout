@@ -1,0 +1,23 @@
+<container class="content full-content">
+    <spacer size="16"></spacer>
+    <row>
+      <columns small="12" large="10">
+        <h1>{{{Head}}}</h1>
+        <spacer size="20"></spacer>
+        <p>{{{Body}}}</p>
+        <spacer size="20"></spacer>
+
+        {{#each bullets}}
+          {{> bullets
+            bull-line = ../bullet-line
+            bull-type = ../bullet-type
+            bull-vspace = ../bullet-vspace
+            bull-lspace = ../bullet-lspace
+            bull-rspace = ../bullet-rspace
+          }}
+        {{/each}}
+
+      </columns>
+    </row>
+  </container>
+  

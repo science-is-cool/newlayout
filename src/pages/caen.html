@@ -1,0 +1,34 @@
+---
+layout: ca
+cid: EML_ELO_20230503_JCM1Q4
+subject: Save On Chromatography Products
+preheaderText: Shop by Application
+preheaderUrl: https://www.fishersci.com/us/en/scientific-products/applications/chromatography.html
+---
+
+{{#with lists-ca.hero}}
+  {{> content-hero-full}}
+{{/with}}
+
+{{> spacer size=10}}
+
+{{#each lists-ca.focus}}
+
+  {{> content-body-2col 
+    img-column = 7
+    img-direction = 'right'
+    btn-type = 'solid'
+    btn-color = '#005daa'
+    btn-width = 125
+    CTA="Save Now"
+  }}
+
+{{/each}}
+
+{{> spacer size=10}}
+
+{{#with lists-ca.banner}}
+  {{> content-hero-full}}
+{{/with}}
+
+{{> spacer size=20}}

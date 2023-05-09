@@ -1,0 +1,11 @@
+{{!-- <p style="font-size:{{btn-font_size}}px;"><a class="inline" href="{{URL}}?cid={{@root.cid}}" {{#if btn-color}}style="color:{{colors btn-color}};"{{/if}}>{{{CTA}}}&nbsp;&nbsp;<span style="display: none">&#9656;</span><img style="display: inline;" src="{{@root.arrowSRC}}" /></a></p> --}}
+
+<p style="font-size:{{btn-font_size}}px;">
+    <a class="inline" href="{{URL}}?cid={{@root.cid}}" {{#if btn-color}}style="color:{{colors btn-color}};"{{/if}}>{{{CTA}}}&nbsp;&nbsp;
+        {{#if btn-color}}
+            <img style="height:0.6em;width:auto;" src="{{arrows btn-color}}" />
+        {{else}}
+            <img src="{{@root.arrowSRC}}" />
+        {{/if}}
+    </a>
+</p>

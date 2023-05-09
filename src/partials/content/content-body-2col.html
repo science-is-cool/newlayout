@@ -1,0 +1,69 @@
+{{#ifequal img-direction 'left'}}
+  <container class="content two-column no-pad img-left">
+    <spacer size="25"></spacer>
+    <row>
+
+      <columns small="12" large="{{img-column}}">
+        <a href="{{URL}}?cid={{@root.cid}}">
+          <center>
+            <img src="{{SRC}}" alt="{{{ALT}}}"> 
+          </center>
+        </a>
+      </columns>
+
+      <columns small="12" large="{{subtract 12 img-column}}">
+        {{#if logoSRC}}
+          <div class="eyebrow">
+            <img src="{{logoSRC}}" alt="{{{logoALT}}}">
+          </div>
+          <spacer size="10"></spacer>
+        {{/if}}
+        <h2>{{{Head}}}</h2>
+        <spacer size="10"></spacer>
+        <p>{{{Body}}}</p>
+        <spacer size="25"></spacer>
+        {{> buttons}}
+      </columns>
+
+    </row>
+    <spacer size="30"></spacer>
+  </container>  
+
+  {{> spacer size=10}}
+
+{{else ifequal img-direction 'right'}}
+
+  <container class="content two-column no-pad img-right">
+    <spacer size="25"></spacer>
+    <row>
+
+      <columns small="12" large="{{subtract 12 img-column}}">
+        {{#if logoSRC}}
+          <div class="eyebrow">
+            <img src="{{logoSRC}}" alt="{{{logoALT}}}">
+          </div>
+          <spacer size="20"></spacer>
+        {{/if}}
+        <h2>{{{Head}}}</h2>
+        <spacer size="10"></spacer>
+        <p>{{{Body}}}</p>
+        <spacer size="35"></spacer>
+        {{> buttons}}
+      </columns>
+
+      <columns small="12" large="{{img-column}}">
+        <a href="{{URL}}?cid={{@root.cid}}">
+          <center>
+            <img src="{{SRC}}" alt="{{{ALT}}}"> 
+          </center>
+        </a>
+      </columns>
+      
+    </row>
+    <spacer size="30"></spacer>
+  </container>  
+
+  {{> spacer size=10}}
+
+
+{{/ifequal}}

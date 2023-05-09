@@ -1,0 +1,29 @@
+hero:
+  SRC: 
+  ALT: 
+  URL: 
+
+banner:
+  SRC: 
+  ALT: 
+  URL: 
+
+focus:
+  -
+    index: 1
+    SRC: 
+    ALT: 
+    logoSRC: 
+    logoALT: 
+    Head: 
+    Body: 
+    URL:
+  -
+    index: 2
+    SRC: 
+    ALT: 
+    logoSRC: 
+    logoALT: 
+    Head: 
+    Body: 
+    URL: 

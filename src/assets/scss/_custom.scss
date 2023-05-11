@@ -45,6 +45,8 @@ body {
     }
   }
   .btn-group {}
+
+  // Added To Fix Display Errors on M-series Macs
   table.container {
     &.pre-header, &.header, &.footer-wrap {
       background-color: transparent;

@@ -1,23 +1,22 @@
 Created: 2/1/23
-Revised: ---
+Revised: 5/11/23
 
 When starting a new project on an M1 Mac:
 
-    1.0 Copy all files from the 'Emails/_core files' directory into a new project folder under 'Emails/_projects/<year>'.
+    MAKE SURE GH IS INSTALLED VIA HOMEBREW
 
-    2.0 Copy (don't move) the node_modules directory from 'Emails/_core node' to wherever the current project is located.
-        2.1 be sure to move this back to the core node directory at the completion of the project.
+    1.0 Create a directory with the project number
+        1.1 Helpful to have a shortcut to the Jobs Directory in the root directory for the project
+        
+    2.0 Clone the contents of the library to 'emails' directory using GH
+        2.1 gh repo clone science-is-cool/newlayout emails
 
-    3.0 Copy any associated files from the 'Emails/_updates/' directory into the associated directories (i.e. src/partials).
+    3.0 Copy (don't move) the node_modules directory from 'User/Documents/Emails/_core node' to emails directory within the current project.
+        3.1 Be sure to move this back to the core node directory at the completion of the project.
 
-    4.0 Copy the 'src' directory from the corresponding template under 'Emails/_templates'.
-
-    5.0 To correct the display errors, insert the following code beneath '.btn-group {}' on line 44 of 'src/assets/scss/_custom.scss'.
-        table.container {
-            &.pre-header, &.header, &.footer-wrap {
-                background-color: transparent;
-            }
-            &.pre-header {
-                margin-top: 10px;
-            }
-        }
+    4.0 Copy finalized files to the appropriate jobs folder
+        4.1 Copy 'dist' directory to '(Job)/Dev/dist'
+            4.1.1 index.html file not necessary as this is just the list of languages
+        4.2 Copy 'emails' directory to '(Job)/Dev/emails'
+            4.2.1 Do NOT include 'node_modules' or 'dist' directories
+            4.2.2 Be sure to include hidden files. To unhide them in Finder, use the keyboard shortcut 'Cmd+Shift+Period(.)'

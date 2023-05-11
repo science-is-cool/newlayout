@@ -1,30 +1,44 @@
 html.langs .body {
-    ul {
-        list-style-type: none;
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: row;
-        li {
-            margin: 1rem;
-            a {
-                display: block;
-                width: 5rem;
-                text-decoration: none;
-                text-align: center;
-                background-color: $primary-color;
-                color: white;
-                font-size: 1.25rem;
-                border-radius: 10px;
-                padding: 1rem;
-                transition: all 0.25s ease;
-                &:hover {
-                    background-color: lighten($primary-color, 15%);
-                }
-            }
-        }
-    }
+  center {
+    height: 100vh;
+    width: 25%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  ul {
+      list-style-type: none;
+      padding-left: 0;
+      margin: 0;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      &:first-of-type {
+        margin-bottom: 1rem;
+        grid-gap: 1rem;
+      }
+      &:last-of-type {
+        grid-template-columns: 1fr;
+      }
+      li {
+          margin: 0 1rem;
+          a {
+              display: block;
+              width: 100%;
+              text-decoration: none;
+              text-align: center;
+              background-color: $primary-color;
+              color: white;
+              font-size: 1.25rem;
+              border-radius: 10px;
+              padding: 1rem;
+              transition: all 0.25s ease;
+              &:hover {
+                  background-color: lighten($primary-color, 15%);
+              }
+          }
+      }
+  }
 }
 
 $breakpoints: (

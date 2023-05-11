@@ -1,34 +1,47 @@
 ---
 layout: ca
-cid: EML_ELO_20230503_JCM1Q4
-subject: Save On Chromatography Products
-preheaderText: Shop by Application
-preheaderUrl: https://www.fishersci.com/us/en/scientific-products/applications/chromatography.html
+cid: CID_CA
+subject: Insert Subject Line Here
+preheaderText: Insert Preheader Text Here
+preheaderUrl: https://www.fishersci.ca/ca/en/home.html
+
+arrowSRC: 
 ---
 
+{{> solid-bar size=20 color='secondary'}}
+
 {{#with lists-ca.hero}}
-  {{> content-hero-full}}
+  {{> content-hero-full
+    SRC = "/assets/img/hero.png"
+  }}
 {{/with}}
+
 
 {{> spacer size=10}}
 
-{{#each lists-ca.focus}}
 
+{{#each lists-ca.focus}}
   {{> content-body-2col 
     img-column = 7
     img-direction = 'right'
-    btn-type = 'solid'
-    btn-color = '#005daa'
-    btn-width = 125
-    CTA="Save Now"
+    btn-type = 'ghost'
+    btn-color = 'secondary'
+    btn-width = 140
+    btn-font_size = 14
+    SRC = "/assets/img/focusImage.png"
+    Head = "Edit this in <br><strong>lists-ca.yml</strong>"
+    Body = "Remove these Head/Body/URL rows from template before use"
+    CTA = "Read More Now"
+    URL = @root.preheaderUrl
   }}
-
 {{/each}}
 
-{{> spacer size=10}}
 
 {{#with lists-ca.banner}}
-  {{> content-hero-full}}
+  {{> content-body-full_image
+    SRC = "/assets/img/banner.png"
+  }}
 {{/with}}
 
-{{> spacer size=20}}
+
+{{> spacer size=30}}

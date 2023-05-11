@@ -1,7 +1,7 @@
-<container class="content full-content no-pad bar">
-    <row>
-      <columns small="12" large="12">
-        <spacer size="50"></spacer>
-      </columns>
-    </row>
-  </container>
+<container class="content full-content no-pad topbar"{{#if color}}style="background: {{colors color}};"{{/if}}>
+  <row>
+    <columns small="12" large="12">
+      <spacer size="{{#if size}}{{size}}{{else}}50{{/if}}"></spacer>
+    </columns>
+  </row>
+</container>

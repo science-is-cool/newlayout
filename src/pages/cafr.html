@@ -1,39 +1,47 @@
 ---
-layout: rsd
-cid: EML_ELO_20230503_4UMJ5Z
-subject: 
-preheaderText: 
-preheaderUrl: https://www.fishersci.com/us/en/scientific-products/applications/chromatography.html
+layout: fr
+cid: CID_FR
+subject: Insert Subject Line Here
+preheaderText: Insert Preheader Text Here
+preheaderUrl: https://www.fishersci.ca/ca/fr/home.html
 
-arrowSRC: /assets/img/linkArrow_blue.png
+arrowSRC: 
 ---
 
-{{!-- Sample Content --}}
+{{> solid-bar size=20 color='safety'}}
 
 {{#with lists-fr.hero}}
-  {{> content-hero-full}}
+  {{> content-hero-full
+    SRC = "/assets/img/hero.png"
+  }}
 {{/with}}
 
+
 {{> spacer size=10}}
+
 
 {{#each lists-fr.focus}}
-
   {{> content-body-2col 
     img-column = 5
-    img-direction = 'right'
+    img-direction = 'left'
     btn-type = 'solid'
-    btn-color = '#005daa'
-    btn-width = 125
-    CTA="Save Now"
+    btn-color = 'safety'
+    btn-width = 150
+    btn-font_size = 14
     SRC = "/assets/img/focusImage.png"
+    Head = "Edit this in <strong>lists-fr.yml</strong>"
+    Body = "Remove these Head/Body/URL rows from template before use"
+    CTA = "Learn More Here"
+    URL = @root.preheaderUrl
   }}
-
 {{/each}}
 
-{{> spacer size=10}}
 
 {{#with lists-fr.banner}}
-  {{> content-hero-full}}
+  {{> content-body-full_image
+    SRC = "/assets/img/banner.png"
+  }}
 {{/with}}
 
-{{> spacer size=20}}
+
+{{> spacer size=30}}

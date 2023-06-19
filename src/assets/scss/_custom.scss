@@ -160,6 +160,14 @@ body {
   &.three-column {}
   &.break {
     background-color: $light-gray;
+    .columns {
+      &.outer {
+        background-color: white;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        width: $global-gutter;
+      }
+    }
   }
   &.no-pad {
     th {

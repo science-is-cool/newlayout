@@ -1,9 +1,13 @@
 <container class="content full-img no-pad">
   <row class="collapse">
     <columns small="12" large="12">
-      <a href="{{URL}}?cid={{@root.cid}}">
+      {{#if URL}}
+        <a href="{{URL}}?cid={{@root.cid}}">
+          <img src="{{SRC}}" alt="{{{ALT}}}">
+        </a>
+      {{else}}
         <img src="{{SRC}}" alt="{{{ALT}}}">
-      </a>
+      {{/if}}
     </columns>
   </row>
 </container>
